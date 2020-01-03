@@ -1,5 +1,6 @@
 def my_each(arr)
-  yield 
+  while arr.lenght != 0
+    yield 
   arr
 end
 
