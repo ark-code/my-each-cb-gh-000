@@ -1,7 +1,7 @@
 def my_each(arr)
   counter = 0
-  while counter < collection.size
-    yield(collection[counter])
+  while counter < arr.size
+    yield(arr[counter])
     counter += 1
   end
   return collection
