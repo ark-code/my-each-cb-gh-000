@@ -4,6 +4,6 @@ def my_each(arr)
     yield(arr[counter])
     counter += 1
   end
-  return collection
+  return arr
 end
 
